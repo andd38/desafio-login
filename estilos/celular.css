@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: purple;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+h1{
+    text-align: center;
+    font-weight: 900;
+}
+p{
+    text-align: left;
+    
+}
+.interface{
+    margin: auto;
+    width:350px;
+    height: 650px;
+    margin-top: 5px;
+    background-image: url(../imagens/pexels-anna-rynkowska-13744980.jpg);
+    border-radius: 15px;
+}
+form{
+    background-color: white;
+    border-start-start-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 130px;
+}
+input[type=password]{
+    background-color: rgb(150, 250, 218);
+    border-radius: 15px;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+    width: 250px;
+    font-size: 1.5em;
+   
+    
+}
+input[type=email]{
+    width: 250px;
+    background-color: rgb(150, 250, 218);
+    border-radius: 15px;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+    font-size: 1.5em;
+    
+}
+#user,#pass{
+    text-align: left;
+    background-color: blueviolet;
+    width: 320px;
+    border-bottom: white solid 5px;
+    border-radius: 15px;
+    padding: 15px;
+    
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 5px;
+    display: flex;
+}
+input#logar{
+    background-color: aquamarine;
+    height: 50px;
+    margin-left: 5px;
+    width: 340px;
+    border: none;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    
+    
+}
+input#logar:hover{
+    cursor: pointer;
+    background-color: rgb(71, 131, 111);
+}
+input#forgot{
+    background-color: rgb(255, 255, 254);
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 340px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    
+
+}
+input#forgot:hover{
+    cursor: pointer;
+    border: 1px solid aqua;
+}

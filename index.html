@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/all.css" media="all">
+    
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (orientation:tablet)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (orientation: desktop)">
     <link rel="stylesheet" href="estilos/celular.css" media="screen and (orientation:portrait)">
     
     <title>Document</title>
 </head>
 <body>
     <div class="interface">
+        <form action="cadastro.php" method="get" autocomplete="off">
         <h1>Login</h1>
         <p>Seja bem vindo novamente.Faça login para acessar sua conta e poder fazer configurações no seu ambiente</p>
-        <form action="cadastro.php" method="get" autocomplete="off">
+        <br>
+       
             <div id="user">
-                <label for="iuser"><img src="imagens/icons8-usuário-30.png" alt=""></label>
+                <label for="iuser"><img src="imagens/icons8-usuário-60.png" alt=""></label>
                 <input type="email" name="iuser" id="iuser" placeholder="seu e-mail" required>
             </div>
             <div id="pass">
-                <label for="ipassword"><img src="imagens/icons8-desbloquear-particular-30.png" alt=""></label>
+                <label for="ipassword"><img src="imagens/icons8-senha-1-48.png" alt="" width="60px"></label>
                 <input type="password" name="ipassword" id="ipassword" placeholder="sua senha" required>
             </div>
             <div class="registrar">
                 <input type="button" value="Entrar" id="logar">
-                <br><br><br>
-                <input type="button" value="Esqueci a senha" id="forgot">
+                <br>
+                <input type="button" value="Esqueci a senha " id="forgot" >
             </div>
-            <div class="img">
-                <img src="imagens/pexels-anna-rynkowska-13744980.jpg" alt="img" height="350px" width="450px">
-            </div>
+           
            
 
         </form>
