@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+   background-image: linear-gradient(to bottom,rgb(179, 74, 179),rgb(61, 177, 177));
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   
+}
+h1{
+    text-align: left;
+    margin-left: 250px;
+}
+p{
+    text-align: left;
+    margin-bottom: 19px;
+}
+.interface{
+    font-family: 'Montserrat';
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    height: 350px;
+    background-color: white;
+    margin-top: 280px;
+    border-radius: 15px;
+}
+#user,#pass{
+    text-align: left;
+    background-color: blueviolet;
+    width: 420px;
+    border-bottom: white solid 5px;
+    border-radius: 15px;
+    padding: 15px;
+    
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 5px;
+    display: flex;
+}
+input[type=button]{
+
+ text-align: center;
+border-radius: 15px;
+
+border: 2px solid white;
+outline: none;
+ width: 420px;
+ height: 50px;
+ 
+
+}
+p{
+    width: 320px;
+    text-align: justify;
+}
+input#logar{
+    background-color: aquamarine;
+    float: left;
+    margin-left: 5px;
+    
+}
+input#logar:hover{
+    cursor: pointer;
+}
+input#forgot{
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: 5px;
+}
+input#forgot:hover{
+    cursor: pointer;
+}
+
+
+.registrar{
+    left: 0px;
+}
+
+input[type=password]{
+    background-color: rgb(150, 250, 218);
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    width: 418px;
+    
+}
+input[type=email]{
+    width: 418px;
+    background-color: rgb(150, 250, 218);
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    
+}
+.img{
+    
+    position: fixed;
+    top: 280px;
+    right: 490px;
+}
