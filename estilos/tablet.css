@@ -25,10 +25,20 @@ p{
     margin: auto;
     text-align: center;
     width: 900px;
-    height: 350px;
-    background-color: white;
-    margin-top: 280px;
+    height: 380px;
+    
+    margin-top: 80px;
     border-radius: 15px;
+    background-image: url(../imagens/pexels-anna-rynkowska-13744980.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: white;
+    float: left;
+    height: 380px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 #user,#pass{
     text-align: left;
@@ -37,7 +47,7 @@ p{
     border-bottom: white solid 5px;
     border-radius: 15px;
     padding: 15px;
-    
+    outline: none;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -68,14 +78,17 @@ input#logar{
 }
 input#logar:hover{
     cursor: pointer;
+    background-color: rgb(119, 230, 230);
 }
 input#forgot{
     background-color: blanchedalmond;
     float: left;
     margin-left: 5px;
+    margin-bottom: 100px;
 }
 input#forgot:hover{
     cursor: pointer;
+    border: 1px solid aqua;
 }
 
 
@@ -104,6 +117,6 @@ input[type=email]{
 .img{
     
     position: fixed;
-    top: 280px;
+    top: 550px;
     right: 490px;
 }
